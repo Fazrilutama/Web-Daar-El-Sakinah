@@ -6,11 +6,11 @@ export default function SejarahSingkat() {
         <div className='text-center text-3xl font-bold text-gray-800 mt-20 lg:mt-24 pt-5'>
             <p>Sejarah Singkat</p>
         </div>
-        <div className='mx-5 md:mx-10 lg:mx-28 xl:mx-56 py-7 text-justify'>
+        <div className='mx-5 text-sm md:mx-10 lg:mx-28 xl:mx-56 py-7 text-justify'>
             <p>
             Daar El Sakinah didirikan oleh Bapak M. Abdul Rodjak. Sebelum diresmikan menjadi satu Yayasan Pendidikan, Daar El Sakinah awalnya merupakan sarana pengajaran dasar Agama Islam yang diperuntukkan anak-anak dan remaja, serta pengajian rutin bapak-bapak dan Majelis Taklim bagi ibu-ibu di lingkungan sekitar.
             </p>
-            <p>
+            <p className='py-4'>
             Uniknya Yayasan Daar El Sakinah masih mempertahankan metode pendidikan khas pedesaan, sehingga lebih flexible, dan tentunya lebih terbuka dan terintegrasi dengan Ilmu Pengetahuan Umum. Dengan demikian, para santri tetap uptodate dan dapat menjalani kehidupan modern yang lebih terarah, sesuai ajaran syariat Islam.
             </p>
             <p>

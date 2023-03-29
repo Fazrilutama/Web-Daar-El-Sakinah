@@ -10,12 +10,17 @@ export default function Navbar() {
   return (
     <div>
         <nav className='container '>
-            <div className='justify-between mx-auto w-full px-4 xl:items-center xl:flex lg:px-16 xl:px-20 z-10 fixed bg-white top-0' >
+            <div className='justify-between mx-auto w-full px-4 xl:items-center xl:flex lg:px-16 xl:px-20 z-50 fixed bg-white top-0' >
                 <div>
                     <div className='flex items-center justify-between py-3 xl:py-5 xl:block'>
                         {/* Logo */}
-                        <Link href="" className='flex items-center xl:w-8/12'>
-                            <img src="/img/navbar/Logo.png" className='w-[200px] xl:w-80 ' alt="Logo" /> 
+                        <Link href="" className='flex items-center'>
+                            <img src="/img/navbar/Logo.png" className='w-12' alt="Logo" /> 
+                            <div className='leading-4 font-semibold text-base pl-1'>
+                                <h1>Yayasan</h1>
+                                <p>Daar Elsakinah</p>
+                                <p>Sukabumi</p>
+                            </div>
                         </Link>
                         
                         {/* Hamburger Menu */}

@@ -44,7 +44,7 @@ export default function DropdownProgram() {
             <Menu.Item>
               {({ active }) => (
                 <Link
-                  href="/programmajelis"
+                  href="/Programmajelis"
                   className={classNames(
                     active ? 'focus:text-[#00923F] hover:text-[#00923F] text-gray-900' : 'text-[#1e1916]',
                     'block px-4 py-2 text-sm'
