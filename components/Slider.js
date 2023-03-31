@@ -11,7 +11,7 @@ import { Pagination } from "swiper";
 
 export default function Slider() {
     return (
-        <div className="mt-20 ">
+        <div className="mt-20 lg:mt-24 ">
             <Swiper
                 pagination={true}
                 modules={[Pagination]}

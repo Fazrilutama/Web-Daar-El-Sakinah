@@ -15,8 +15,8 @@ export default function Navbar() {
                     <div className='flex items-center justify-between py-3 xl:py-5 xl:block'>
                         {/* Logo */}
                         <Link href="" className='flex items-center'>
-                            <img src="/img/navbar/Logo.png" className='w-12' alt="Logo" /> 
-                            <div className='leading-4 font-semibold text-base pl-1'>
+                            <img src="/img/navbar/Logo.png" className='w-12 md:w-14 lg:w-16' alt="Logo" /> 
+                            <div className='leading-4 lg:leading-5 font-bold text-base pl-1 lg:text-lg'>
                                 <h1>Yayasan</h1>
                                 <p>Daar Elsakinah</p>
                                 <p>Sukabumi</p>
@@ -56,17 +56,17 @@ export default function Navbar() {
                                 </Link> */}
                             </li>
                             <li className='pb-6 text-lg text-[#1e1916] font-bold lg:py-5 py-2 lg:px-4 xl:px-6 text-center hover:text-[#00923F] focus:text-[#00923F]'>
-                                <Link href="/InformasiPPDB" onClick={() => setNavbar (!navbar)}>
+                                <Link href="/unduhan" onClick={() => setNavbar (!navbar)}>
                                     Unduhan
                                 </Link>
                             </li>
                             <li className='pb-6 text-lg text-[#1e1916] font-bold lg:py-5 py-2 lg:px-4 xl:px-6 text-center hover:text-[#00923F] focus:text-[#00923F]'>
-                                <Link href="/InformasiPPDB" onClick={() => setNavbar (!navbar)}>
+                                <Link href="/donasi" onClick={() => setNavbar (!navbar)}>
                                     Donasi
                                 </Link>
                             </li>
                             <li className='pb-6 text-lg text-[#1e1916] font-bold lg:py-5 py-2 lg:px-4 xl:px-6 text-center hover:text-[#00923F] focus:text-[#00923F]'>
-                                <Link href="/Kontak/" onClick={() => setNavbar (!navbar)}>
+                                <Link href="/kontak" onClick={() => setNavbar (!navbar)}>
                                     Kontak
                                 </Link>
                             </li>

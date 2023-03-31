@@ -1,13 +1,13 @@
 import Footer from '@/components/Footer'
+import KontakKami from '@/components/KontakKami'
 import Navbar from '@/components/Navbar'
-import ProgramIbuibu from '@/components/ProgramIbuibu'
 import React from 'react'
 
-export default function Programmajelis() {
+export default function Kontak() {
   return (
     <div>
         <Navbar />
-        <ProgramIbuibu />
+        <KontakKami />
         <Footer />
     </div>
   )
