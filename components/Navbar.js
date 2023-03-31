@@ -32,7 +32,7 @@ export default function Navbar() {
                                 ) : (
                                     <Image src="/img/navbar/y.svg" width={30} height={30} alt='' className='focus:border-none active:border-none' />
                                 )}
-                            </button>
+                            </button> 
                         </div>
                     </div>
                 </div>
